@@ -5,21 +5,25 @@
 	<link rel="stylesheet" type="text/css" href="css/styles.css">
 </head>
 <body>
-	<div class="contact-parent">
+	<div id="container"class="contact-parent">
 		<h2>Contact Us</h2>
 		<div>Name<br>
-			<input type="text">
+			<input id="name" type="text" placeholder="Sally Smith">
+			<div class="input-validation" id="0"></div>
 		</div>
 		<div>Email<br>
-			<input type="text">
+			<input id="email"type="email" placeholder="ssmith@gmail.com">
+			<div class="input-validation" id="1"></div>
 		</div>
 		<div>Website<br>
-			<input type="text">
+			<input id="website"type="text" placeholder="http://mssmith.net">
+			<div class="input-validation" id="2"></div>
 		</div>
 		<div>Message<br>
-			<textarea></textarea>
+			<textarea id="message" placeholder="A friendly message..."></textarea>
+			<div class="input-validation" id="3"></div>
 		</div>
-		<button>Submit</button>
+		<button id="submit">Submit</button>
 	</div>
 	<script type="text/javascript" src="bower_components/jquery/dist/jquery.min.js"></script>
 	<script type="text/javascript" src="scripts/main.js"></script>

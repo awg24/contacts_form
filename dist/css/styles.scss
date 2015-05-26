@@ -21,11 +21,15 @@ h2 {
 
 input {
 	width: 400px;
-	height: 25px;
+	height: 35px;
 	border-left: 5px solid black;
 	border-top: 1px solid gray;
 	border-right: 1px solid gray;
 	border-bottom: 1px solid gray;
+	font-size: 19px;
+}
+
+.input-validation {
 	margin-bottom: 15px;
 }
 
@@ -36,14 +40,20 @@ textarea {
 	border-top: 1px solid gray;
 	border-right: 1px solid gray;
 	border-bottom: 1px solid gray;
-	margin-bottom: 15px;
+	font-size: 19px;
 	resize: none;
 }
 
 button {
 	background: rgb(29,28,46);
+	border: 1px solid black;
 	color: white;
 	height: 50px;
 	width: 150px;
 	font-size: 15px;
+	transition: background 0.5s;
+}
+
+button:hover {
+	background: #88C470;
 }
